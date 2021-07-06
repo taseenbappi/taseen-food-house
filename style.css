@@ -3,6 +3,37 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.navbar{
+    background-color:#a1a1a1;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left:100px;
+    height:60px;
+    margin: 0;
+    
+  }
+
+ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border-radius:10px;
+    margin:20px;
+    padding:10px;
+
+    
+}
+.nav-item{
+    background-image: linear-gradient(salmon , tomato );
+    margin-left: 5px;
+    margin-top: 29px;
+    text-decoration: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
 .half-width{
     width: 50%;
 }
@@ -31,15 +62,25 @@ h1{
     font-size: 18px;
     font-weight: 400;
 }
-.button{
+.order-button{
     font-size: 16px;
     background-image: linear-gradient(salmon , tomato );
     text-shadow: 5px 10px 20px gray;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 20px 40px;
+    padding: 15px 30px;
     border-radius: 50px;
-    margin: 0;
+ 
+}
+.contact-button{
+    font-size: 16px;
+    background-image: linear-gradient(salmon , tomato );
+    text-shadow: 5px 10px 20px gray;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin: 30px;
     
 }
 
@@ -47,6 +88,7 @@ h1{
     
     padding-top: 100px;
     margin-left: 100px;
+    
 }
 
 #food-man-img{
@@ -62,27 +104,35 @@ h1{
 .about-middle{
     background-image: url(images/others/about-bg.png);
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: 650px;
+    height: 700px; 
+    background-size: 100%;
     
-    
+}
+
+.about-profile{
+    height: 718px; 
     
 }
 .about-img{
     text-align: center;
-    padding: 50px;
+    margin: 0;
+    padding: 20px;
 }
 #person-img{
-    max-width: 70%;
-    max-height: 75%;
-    margin-top: 15px;   
+    max-width: 100%;
+    max-height: 87%;
+    padding: 22px; 
 }
-.about text{
-    max-height: 75%;
+.about-text{
+    max-height: 100%;
+    margin: 0;
+    padding: 56px;
 }
 
 #about-text-details{
     margin-bottom: 100px;
+    margin: 30px;
+    text-align: justify;
     
     
 }
@@ -90,6 +140,7 @@ h1{
     color: rgb(95, 95, 95);
     font-size: 40px;
     font-weight: 600;
+    margin: 30px;
 }
 .recipies-img{
     text-align: center;
@@ -100,7 +151,7 @@ h1{
 .recipies-cooked{
     box-shadow: 5px 5px 20px rgb(218, 215, 215);
     border-radius: 30px;
-    width: 40%;
+    width: 28%;
     margin: 20px;
 }
 .recipie-title{
@@ -109,11 +160,13 @@ h1{
     margin: 15px;
 }
 .recipie-title-details{
+    text-align: justify;
     margin: 15px;
     font-weight: 400;
 }
 .recipies-details-text{
     text-align: center;
+    color: #5b5b5b;
 }
 .recipies{
    
@@ -121,20 +174,25 @@ h1{
     margin: auto;
     margin-bottom: 100px;
 }
+#recipies-heading{
+    font-size: 40px;
+}
 #recipies-heading-details{
-    width: 45%;
-    text-align: center;
+    width: 40%;
+    font-weight: 200;
+    padding: 5px;
     margin: auto;
 }
 .follwers-social-media{
     
-    box-shadow: 5px 5px 20px rgb(218, 215, 215);
+    box-shadow: 5px 5px 20px rgb(218 215 215);
     text-align: center;
-    width: 70%;
+    width: 67%;
     margin: auto;
-    padding: 40px ;
+    padding: 40px;
     margin-bottom: 100px;
     border-radius: 30px;
+    margin-left: 176px;
 }
 .followers-liker{
     width: 40%;
